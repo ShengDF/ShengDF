@@ -52,10 +52,14 @@
 
 
 
+    
+<script src="//at.alicdn.com/t/c/font_4269702_pnxo5579g9.js"></script>
+
+
 
 <!-- Variable -->
-<script>window.ASYNC_CONFIG = {"hostname":"example.com","author":"John Doe","root":"/","typed_text":null,"theme_version":"2.1.1","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"/img/favicon.svg","icon16":"/img/favicon.svg","icon32":"/img/favicon.svg","appleTouchIcon":null,"webmanifest":null,"visibilitychange":false,"hidden":"/failure.ico","showText":"(/≧▽≦/)咦！又好了！","hideText":"(●—●)喔哟，崩溃啦！"},"i18n":{"placeholder":"搜索文章...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。","copy_success":"复制成功","copy_failure":"复制失败","open_read_mode":"进入阅读模式","exit_read_mode":"退出阅读模式","notice_outdate_message":"距离上次更新已经 undefined 天了, 文章内容可能已经过时。","just":"刚刚","min":"分钟前","hour":"小时前","day":"天前","month":"个月前"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","user_tag":"fas fa-user-alt","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":true,"copy":true,"lang":true,"title":"default","height_limit":false},"toc":{"post_title":true}};</script>
-<script id="async-page-config">window.PAGE_CONFIG = {"isPost":false,"isHome":true,"postUpdate":"2023-09-26 17:20:17"};</script>
+<script>window.ASYNC_CONFIG = {"hostname":"example.com","author":"John Doe","root":"/","typed_text":null,"theme_version":"2.1.1","theme":{"switch":false,"default":"style-dark"},"favicon":{"logo":"/img/favicon.svg","icon16":"/img/favicon.svg","icon32":"/img/favicon.svg","appleTouchIcon":null,"webmanifest":null,"visibilitychange":"ture","hidden":"/failure.ico","showText":"欢迎回来","hideText":"..."},"i18n":{"placeholder":"搜索文章...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。","copy_success":"复制成功","copy_failure":"复制失败","open_read_mode":"进入阅读模式","exit_read_mode":"退出阅读模式","notice_outdate_message":"距离上次更新已经 undefined 天了, 文章内容可能已经过时。","just":"刚刚","min":"分钟前","hour":"小时前","day":"天前","month":"个月前"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","user_tag":"fas fa-user-alt","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"symbol","highlight":{"plugin":"highlighjs","theme":true,"copy":true,"lang":true,"title":"mac","height_limit":200},"toc":{"post_title":true}};</script>
+<script id="async-page-config">window.PAGE_CONFIG = {"isPost":false,"isHome":true,"postUpdate":"2023-09-27 10:33:11"};</script>
 
 <!-- Theme mode css -->
 <link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.1.1" id="trm-switch-style">
@@ -105,9 +109,13 @@
     <!-- change mode preloader -->
     <div class="trm-mode-swich-animation-frame">
     <div class="trm-mode-swich-animation">
-        <i class="i-sun"><i class="iconfont far fa-sun"></i></i>
+        <i class="i-sun"><svg class="symbol-icon " aria-hidden="true">
+    <use xlink:href="#far fa-sun"></use>
+</svg></i>
         <div class="trm-horizon"></div>
-        <i class="i-moon"><i class="iconfont far fa-moon"></i></i>
+        <i class="i-moon"><svg class="symbol-icon " aria-hidden="true">
+    <use xlink:href="#far fa-moon"></use>
+</svg></i>
     </div>
 </div>
     <!-- change mode preloader end -->
@@ -153,17 +161,6 @@
 </div>
 <!-- menu end -->
 			
-    <!-- mode switcher place -->
-    <div class="trm-mode-switcher-place">
-        <div class="trm-mode-switcher">
-            <i class="iconfont far fa-sun"></i>
-            <input class="tgl tgl-light" id="trm-swich" type="checkbox">
-            <label class="trm-swich" for="trm-swich"></label>
-            <i class="iconfont far fa-moon"></i>
-        </div>
-    </div>
-    <!-- mode switcher place end -->
-
 			
 		</div>
 		<div class="trm-menu-btn">
@@ -179,7 +176,7 @@
     <div class="trm-banner">
     
     <!-- banner cover -->
-    <img style="object-position:top;object-fit:cover;" alt="banner" class="trm-banner-cover" src="/img/banner.png">
+    <img style="object-position:top;object-fit:cover;" alt="banner" class="trm-banner-cover" src="https://telegraph-image-3fd.pages.dev/file/f6f9356ea1fbf73772bfb.png">
     <!-- banner cover end -->
     
 
@@ -195,7 +192,7 @@
                     <!-- banner title -->
                     <div class="trm-banner-text ">
                         <div class="trm-label trm-mb-20">
-                            Hi my new friend!
+                            Be Interest Forever!
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
                             树深时见鹿，<br>溪午不闻钟。
@@ -254,7 +251,15 @@
 <div class="trm-social">
     
         <a href="https://github.com" title="Github" rel="nofollow" target="_blank">
-            <i class="iconfont fab fa-github"></i>
+            <svg class="symbol-icon " aria-hidden="true">
+    <use xlink:href="#icon-github"></use>
+</svg>
+        </a>
+    
+        <a href="https://gitee.com" title="Gitee" rel="nofollow" target="_blank">
+            <svg class="symbol-icon " aria-hidden="true">
+    <use xlink:href="#icon-gitee"></use>
+</svg>
         </a>
     
 </div>
@@ -282,7 +287,9 @@
     <div class="text-center">
         <a href="mailto:1799915939@qq.com" class="trm-btn">
             联系我
-            <i class="iconfont far fa-envelope"></i>
+            <svg class="symbol-icon " aria-hidden="true">
+    <use xlink:href="#far fa-envelope"></use>
+</svg>
         </a>
     </div>
     <!-- action button end -->
@@ -431,7 +438,9 @@
     
     
     <div id="trm-back-top" class="trm-fixed-btn" data-title="回到顶部">
-        <i class="iconfont fas fa-arrow-up"></i>
+        <svg class="symbol-icon " aria-hidden="true">
+    <use xlink:href="#fas fa-arrow-up"></use>
+</svg>
     </div>
 </div>
         </div>
